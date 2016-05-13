@@ -1,0 +1,47 @@
+div {
+	text-align:center;
+	height:8vh;
+	margin:0;
+	padding:0;
+	line-height:8vh;
+}
+#requestParagraph {
+	background-color:white;
+}
+#minutesUnit {
+	background-color:green;
+}
+#secondsUnit {
+	background-color:yellow;
+}
+input {
+	margin:2vh;
+}
+#timerBody,#timerText {
+	line-height:25vh;
+	padding:1vh;
+	text-align:center;
+	background-color:red;
+	color:white;
+	font-size:20vh;
+}
+#timerBody {
+	height:50vh;
+}
+#timerText {
+	display:none;
+	height:25vh;
+}
+button {
+	margin:1vh auto;
+	height:4vh;
+	width:20vh;
+	display:block;
+}
+#stopButton {
+	display:none;
+}
+img {
+	display:block;
+	margin:0 auto;
+}

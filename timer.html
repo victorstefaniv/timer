@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Таймер</title>
-</head>
-<body>
-<script type="text/javascript" src="timer.js"></script>
-</body>
+	<head>
+		<title>Таймер</title>
+		<meta charset="UTF-8">
+		<link rel='stylesheet' type='text/css' href='timer.css'>
+	</head>
+	<body>
+	<div id='requestParagraph'>Введіть точку початку зворотнього відліку:</div>
+	<div id='minutesUnit'><input type='text' id='minutesField' placeholder='Введіть ціле число'>хвилин</div>
+	<div id='secondsUnit'><input type='text' id='secondsField' placeholder='Введіть ціле число'>секунд</div>
+	<button id='startButton'>Старт</button>
+	<button	id='stopButton'>Стоп</button>
+	<button	id='continueButton'>Продовжити</button>
+	<button	id='clearButton'>Скинути</button>
+	<div id='timerBody'>00:00</div>
+	<div id='timerText'>before explosion</div>
+	<audio>
+		<source src='boomSound.mp3' type='audio/mpeg'>
+	</audio>
+	<script type="text/javascript" src="timer.js"></script>
+	</body>
 </html>
